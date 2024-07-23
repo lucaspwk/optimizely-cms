@@ -1,0 +1,7 @@
+C:\app\publish\MyProject.exe
+C:\app\publish\appsettings.Development.json
+C:\app\publish\appsettings.json
+C:\app\publish\MyProject.dll
+C:\app\publish\MyProject.deps.json
+C:\app\publish\MyProject.runtimeconfig.json
+C:\app\publish\MyProject.pdb
