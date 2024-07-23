@@ -104,7 +104,7 @@ helm install -f values.yaml optimizely-cms . -n optimizely-cms --debug
 # To-Do
 
 - **Terraform**: Segregate cloud resource provisions and Kubernetes objects. Remove all kubernetes objects from Terraform and manage them separately with Helm and Flux.
-- **Cert-Manager**: Fix ACME validation to generate self signed valid certificates.
+- **Cert-Manager**: Fix ACME challenge validation.
 - **CI Workflow**: Set up a CI pipeline to build and push Docker images to the registry.
 - **GitOps**: Implement GitOps using tools like Flux or ArgoCD for continuous delivery.
 - **Monitoring Stack**: Integrate monitoring solutions such as Prometheus, Grafana, Thanos, and Loki.
